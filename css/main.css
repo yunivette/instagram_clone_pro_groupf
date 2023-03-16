@@ -8,7 +8,7 @@ body{
 }
 
 .home-phones{
- background-image: url("images/home-phones.png");
+ background-image: url("../images/home-phone.png");
 background-repeat: no-repeat;
 height: 581.15px;
 display: inline-block;
@@ -62,7 +62,7 @@ input{
 }
 
 .logo{
-    background-image: url("images/ajlEU-wEDyo.png");
+    background-image: url("../images/ig-logo.png");
     height: 30px;
     display: inline-block;
     width: 176px;
