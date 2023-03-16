@@ -1,0 +1,143 @@
+body{
+    padding-top: 50px;
+}
+
+.main-container{
+
+    text-align: center;
+}
+
+.home-phones{
+ background-image: url("images/home-phones.png");
+background-repeat: no-repeat;
+height: 581.15px;
+display: inline-block;
+width: 430px;
+position: relative;
+right: 40px;
+
+}
+
+.slide-img{
+    width: 15.7rem ;
+    margin: 28px 0 0 126px;
+}
+.slide-img2{
+    width: 15.7rem ;
+    position: absolute;
+    bottom: 11px;
+    right: 26.5px;
+
+}
+.btn{
+    width: 280px;
+    margin-top: 10px;
+    border-radius: 12px;
+    background-color: #3578E5;
+    opacity: 0.7;
+    height: 36px;
+    
+}
+input{
+    margin-top: 8px;
+    padding-bottom: 8px;
+    width: 280px;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    opacity: .5;
+    font-size:13px;
+    height: 40px;
+    background-color: #F2F3F5;
+}
+.input-div{
+    text-align: center;
+    border: 1px solid;
+    display: inline-block;
+    border-color: rgb(162, 174, 184);
+    border-width: 1px;
+    position: relative;
+    top: 40px;
+    padding: 0 15px 0 15px;
+}
+
+.logo{
+    background-image: url("images/ajlEU-wEDyo.png");
+    height: 30px;
+    display: inline-block;
+    width: 176px;
+    height: 103px;
+    margin-bottom: 20px;
+}
+
+.lines-div{
+    margin-top: 25px;
+}
+
+.line{
+    height: 1px;
+    width: 110px;
+    position: relative;
+    top: 12px;
+    left: -5px;
+    background-color: grey;
+    opacity: .5;
+
+}
+.line2{
+    height: 1px;
+    width: 110px;
+    position: relative;
+    bottom: 12px;
+    left: 5px;
+    background-color: grey;
+    float: right;
+    opacity: .5;
+}
+.or-div{
+    font-weight: 400;
+    color: grey;
+    font-size:15px;
+}
+
+  .top {
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+  }
+  .left {
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-direction: alternate;
+  } 
+   .right {
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-direction: alternate;
+  }
+
+
+  
+  @keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+
