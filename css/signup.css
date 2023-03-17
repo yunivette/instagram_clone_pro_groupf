@@ -1,0 +1,28 @@
+.parent{
+    border:.1px solid rgba(128, 128, 128, 0.336);
+    width:350px;
+    margin-left: 800px;
+    padding-bottom:40px;
+    margin-top: 15px;
+    background-color:white;
+    
+}
+.image1{
+    width:50%;
+    margin-left:75px;
+    margin-top:50px;
+    opacity:.9;
+}
+.p1{
+    margin-left:65px;
+    margin-top:10px;
+    font-size:18px;
+    opacity:.6;
+}
+.pp1{
+    margin-left:72px;
+    margin-top: -10px;
+    font-size:17px;
+    opacity:.6;
+    padding-bottom:10px;
+}
